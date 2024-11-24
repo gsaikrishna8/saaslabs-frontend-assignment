@@ -1,0 +1,24 @@
+.cell-Size {
+    border: 1px solid #ccc;
+    height: 40px;
+  }
+  .button {
+    cursor: pointer;
+  }
+  .table {
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  .pagination-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end; /* Align pagination to the bottom left */
+    margin-top: 10px;
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
